@@ -1,0 +1,16 @@
+# 反编译工程（需自备原始 APK）
+work/
+
+# 构建中间产物
+build/
+!build/.gitkeep
+
+# 签名密钥
+*.keystore
+*.jks
+*.idsig
+
+# 发布包走 Releases，不进 git
+release/*.apk
+__pycache__/
+*.pyc
